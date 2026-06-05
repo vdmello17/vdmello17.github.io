@@ -8,218 +8,302 @@
 </head>
 <body>
 
-  <header class="hero">
-    <nav>
-      <h2>Valencia Dmello</h2>
+  <header class="hero" id="home">
+    <nav class="navbar">
+      <a href="#home" class="logo">V.</a>
       <div class="nav-links">
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#experience">Experience</a>
-  <a href="#projects">Projects</a>
-  <a href="#certifications">Certifications</a>
-  <a href="#contact">Contact</a>
-</div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
 
-    <section class="hero-content">
-      <p class="tagline">Data Analyst & Data Scientist</p>
-      <h1>Hi, I’m Valencia.<br />I turn data into insights and intelligent solutions.</h1>
-      <p>
-        I use SQL, Python, Excel, Power BI, Tableau, and machine learning to clean data,
-        uncover patterns, build dashboards, and support better business decisions.
-      </p>
-            <div class="hero-buttons">
-        <a class="button" href="#projects">View Projects</a>
-        <a class="button secondary" href="#contact">Contact Me</a>
+    <section class="hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Data Analyst & Data Scientist</p>
+        <h1>Hi, I’m Valencia.<br />I turn data into insights and intelligent solutions.</h1>
+        <p class="hero-description">
+          I use SQL, Python, Excel, Power BI, Tableau, and machine learning to clean data,
+          uncover patterns, build dashboards, and support better business decisions.
+        </p>
+
+        <div class="skill-pills">
+          <span>Python</span>
+          <span>SQL</span>
+          <span>Excel</span>
+          <span>Power BI</span>
+          <span>Tableau</span>
+          <span>Machine Learning</span>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn secondary">Let's Connect</a>
+        </div>
       </div>
 
-      <div class="stats-grid">
-  <div class="stat-card">
-    <h3>M.S.</h3>
-    <p>Data Science</p>
-  </div>
+      <div class="hero-card">
+        <div class="profile-circle">VD</div>
+        <h3>Valencia Dmello</h3>
+        <p>Data Analyst • Data Scientist • Dashboard Developer</p>
 
-  <div class="stat-card">
-    <h3>B.S.</h3>
-    <p>Mathematics</p>
-  </div>
-
-  <div class="stat-card">
-    <h3>BI</h3>
-    <p>Dashboards & Reporting</p>
-  </div>
-
-  <div class="stat-card">
-    <h3>ML</h3>
-    <p>Predictive Modeling</p>
-  </div>
-</div>
+        <div class="mini-stats">
+          <div>
+            <strong>M.S.</strong>
+            <span>Data Science</span>
+          </div>
+          <div>
+            <strong>B.S.</strong>
+            <span>Mathematics</span>
+          </div>
+          <div>
+            <strong>BI</strong>
+            <span>Dashboards & Reporting</span>
+          </div>
+          <div>
+            <strong>ML</strong>
+            <span>Predictive Modeling</span>
+          </div>
+        </div>
+      </div>
     </section>
   </header>
 
   <main>
 
     <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>
-        I am Valencia Vincent Dmello, a data analyst and data scientist with experience in Python,
-        SQL, Excel, Tableau, Power BI, machine learning, statistical analysis, and data visualization.
-        I enjoy working with raw data, cleaning it, analyzing patterns, and presenting insights
-        through dashboards, reports, and predictive models.
-      </p>
-      <p>
-        My project experience includes fake news detection, AI-based fashion recommendations,
-        customer churn analysis, salary trend analysis, Medicare prediction, and retail sales dashboarding.
-      </p>
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Building dashboards, models, and insights from real data.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div>
+          <p>
+            I am Valencia Vincent Dmello, a data analyst and data scientist with experience in
+            Python, SQL, Excel, Power BI, Tableau, machine learning, statistical analysis,
+            and data visualization.
+          </p>
+          <p>
+            I enjoy working through the full data project lifecycle: collecting data, cleaning it,
+            analyzing trends, creating visualizations, and translating findings into business insights.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>Education</h3>
+          <p><strong>M.S. Engineering Science, Data Science</strong><br />SUNY University at Buffalo, 2025</p>
+          <p><strong>B.S. Mathematics</strong><br />St. Xavier’s College, India, 2023</p>
+        </div>
+      </div>
     </section>
 
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <span>Excel</span>
-        <span>SQL</span>
-        <span>Python</span>
-        <span>R</span>
-        <span>Power BI</span>
-        <span>Tableau</span>
-        <span>Pandas</span>
-        <span>NumPy</span>
-        <span>Scikit-learn</span>
-        <span>TensorFlow</span>
-        <span>Data Cleaning</span>
-        <span>Dashboard Design</span>
-        <span>Statistical Analysis</span>
-        <span>Regression</span>
-        <span>Classification</span>
-        <span>Forecasting</span>
-        <span>Predictive Modeling</span>
-        <span>Data Visualization</span>
+    <section id="skills" class="section dark-section">
+      <div class="section-heading">
+        <p class="eyebrow">Technical Skills</p>
+        <h2>Tools I use to analyze, model, and communicate data.</h2>
+      </div>
+
+      <div class="skills-category-grid">
+        <div class="skill-card">
+          <h3>Analytics & BI</h3>
+          <p>Excel, Power BI, Tableau, Pivot Tables, Dashboards, Reporting</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <p>Python, R, SQL, Java</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Data Science</h3>
+          <p>Pandas, NumPy, Scikit-learn, TensorFlow, Statistical Analysis</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Machine Learning</h3>
+          <p>Regression, Classification, Forecasting, Predictive Modeling, NLP</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Visualization</h3>
+          <p>Matplotlib, ggplot, Tableau, Power BI, Excel Charts</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Professional Skills</h3>
+          <p>Documentation, Critical Thinking, Teamwork, Organization, Adaptability</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Where I have applied data to real problems.</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">Sep 2025 — Present</div>
+          <div class="timeline-content">
+            <h3>Data Analyst, Part-time</h3>
+            <p class="company">Community Dreams Foundation</p>
+            <ul>
+              <li>Supported analytics for a landscaping platform across website analytics, customer retention, and project tracking.</li>
+              <li>Developed interactive Power BI dashboards for sales/revenue tracking, budget vs. actuals, trends, and what-if analysis.</li>
+              <li>Analyzed community program data and created dashboards to support outreach initiatives.</li>
+            </ul>
+            <div class="tags">
+              <span>Power BI</span>
+              <span>Dashboards</span>
+              <span>Analytics</span>
+              <span>Reporting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Jan 2023 — Oct 2023</div>
+          <div class="timeline-content">
+            <h3>Data & Operations Intern</h3>
+            <p class="company">Sakhya Women’s NGO</p>
+            <ul>
+              <li>Maintained program, donor, and inventory records through accurate data entry and spreadsheet updates.</li>
+              <li>Organized inventory logs in Excel and supported documentation for resource distribution.</li>
+              <li>Cleaned and formatted spreadsheets to improve record accuracy and internal reporting.</li>
+            </ul>
+            <div class="tags">
+              <span>Excel</span>
+              <span>Data Cleaning</span>
+              <span>Documentation</span>
+              <span>Operations</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="projects" class="section">
-      <section id="experience" class="section">
-  <h2>Experience</h2>
-
-  <div class="project-card">
-    <p class="project-label">September 2025 - Present</p>
-    <h3>Data Analyst - Community Dreams Foundation</h3>
-    <p>
-      Supported analytics for a landscaping platform by tracking tasks across website analytics,
-      customer retention, and project phases. Developed interactive Power BI dashboards for
-      real-time financial reporting, including sales/revenue tracking, budget vs. actual analysis,
-      trends, what-if scenario modeling, and filters by department, time period, and category.
-    </p>
-    <p><strong>Tools Used:</strong> Power BI, Excel, Dashboarding, Data Analysis, Reporting</p>
-  </div>
-
-  <div class="project-card">
-    <p class="project-label">January 2023 - October 2023</p>
-    <h3>Data & Operations Intern - Sakhya Women’s NGO</h3>
-    <p>
-      Maintained program, donor, and inventory records through accurate data entry,
-      spreadsheet updates, and routine data checks. Organized inventory logs in Excel,
-      tracked item availability, and cleaned spreadsheets to improve reporting accuracy.
-    </p>
-    <p><strong>Tools Used:</strong> Excel, Data Cleaning, Documentation, Inventory Tracking</p>
-  </div>
-</section>
-      <h2>Projects</h2>
-
-      <div class="project-card">
-        <p class="project-label">Excel Dashboard Project</p>
-        <h3>Online Retail Sales Performance Dashboard</h3>
-
-        <p>
-          Built an interactive Excel dashboard using online retail transaction data.
-          The project involved data collection, cleaning, analysis, visualization,
-          reporting, and business insights.
-        </p>
-
-        <h4>Problem</h4>
-        <p>
-          Raw transaction data was difficult to interpret because it contained product-level
-          invoice records, returns, cancellations, and repeated invoice numbers.
-        </p>
-
-        <h4>Process</h4>
-        <p>
-          Cleaned the dataset, created calculated fields, separated completed sales from
-          returns and cancellations, built Pivot Tables, and designed an interactive Excel dashboard.
-        </p>
-
-        <h4>Key Features</h4>
-        <ul>
-          <li>KPI cards for total revenue, unique orders, customers, and average order value</li>
-          <li>Monthly revenue trend analysis</li>
-          <li>Top countries by revenue excluding UK for better comparison</li>
-          <li>Top products and top customers by revenue</li>
-          <li>Returns and cancellations impact analysis</li>
-          <li>Interactive slicers for filtering the dashboard</li>
-        </ul>
-
-        <h4>Key Insights</h4>
-        <ul>
-          <li>The United Kingdom generated the majority of revenue.</li>
-          <li>November showed the highest revenue, suggesting seasonal sales behavior.</li>
-          <li>A small group of products and customers contributed significantly to sales.</li>
-          <li>Returns and cancellations had a noticeable impact and should be monitored.</li>
-        </ul>
-
-        <img src="assets/dashboard.png" alt="Online Retail Sales Performance Dashboard screenshot" class="project-image" />
-
-        <p><strong>Tools Used:</strong> Excel, Pivot Tables, Pivot Charts, Slicers, Data Cleaning, Dashboard Design</p>
+      <div class="section-heading">
+        <p class="eyebrow">Featured Work</p>
+        <h2>Projects that show analytics, machine learning, and business insight.</h2>
       </div>
 
-      <div class="project-card">
-        <p class="project-label">Machine Learning Project</p>
-        <h3>Fake News Detection</h3>
-        <p>
-          Conducted hypothesis-driven text analysis using Logistic Regression, SVM, LSTM,
-          and BERT, achieving approximately 84% accuracy. Built an interactive app allowing
-          users to test classification behavior in real time.
-        </p>
-        <p><strong>Tools Used:</strong> Python, NLP, Logistic Regression, SVM, LSTM, BERT</p>
-      </div>
+      <div class="project-grid">
 
-      <div class="project-card">
-        <p class="project-label">Data Analytics Project</p>
-        <h3>Customer Churn Management</h3>
-        <p>
-          Used SQL analysis to identify customer churn patterns, including the lowest churn
-          segment and highest revenue plan. Built a real-time Streamlit dashboard to improve
-          accessibility of customer data.
-        </p>
-        <p><strong>Tools Used:</strong> SQL, Python, Streamlit, Dashboarding, Churn Analysis</p>
-      </div>
+        <article class="project-card featured">
+          <p class="project-type">Excel Dashboard</p>
+          <h3>Online Retail Sales Performance Dashboard</h3>
 
+          <p>
+            Built an interactive Excel dashboard using online retail transaction data to analyze revenue,
+            unique orders, customer activity, top countries, top products, and returns/cancellations.
+          </p>
+
+          <img src="assets/dashboard.png" alt="Online Retail Sales Performance Dashboard screenshot" class="project-image" />
+
+          <ul>
+            <li>Cleaned raw transaction data and created calculated fields.</li>
+            <li>Separated completed sales from returns and cancellations.</li>
+            <li>Built KPI cards, Pivot Tables, Pivot Charts, and slicers.</li>
+            <li>Created business insights around revenue, products, customers, and country performance.</li>
+          </ul>
+
+          <div class="tags">
+            <span>Excel</span>
+            <span>Pivot Tables</span>
+            <span>Dashboard</span>
+            <span>Business Insights</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-type">Machine Learning</p>
+          <h3>Fake News Detection</h3>
+          <p>
+            Conducted text classification using Logistic Regression, SVM, LSTM, and BERT,
+            achieving approximately 84% accuracy.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>NLP</span>
+            <span>BERT</span>
+            <span>Classification</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-type">Computer Vision</p>
+          <h3>AI in Fashion</h3>
+          <p>
+            Built a CNN-based image classification model with 94% accuracy and an embedding-powered
+            recommendation system for personalized fashion insights.
+          </p>
+          <div class="tags">
+            <span>CNN</span>
+            <span>TensorFlow</span>
+            <span>Streamlit</span>
+            <span>Recommendation System</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-type">SQL + Dashboard</p>
+          <h3>Customer Churn Management</h3>
+          <p>
+            Used SQL analysis to identify customer churn patterns and built a real-time Streamlit
+            dashboard to improve access to customer insights.
+          </p>
+          <div class="tags">
+            <span>SQL</span>
+            <span>Python</span>
+            <span>Streamlit</span>
+            <span>Churn Analysis</span>
+          </div>
+        </article>
+
+      </div>
     </section>
 
-   <section id="certifications" class="section">
-  <h2>Certifications</h2>
+    <section id="certifications" class="section dark-section">
+      <div class="section-heading">
+        <p class="eyebrow">Certifications</p>
+        <h2>Continuous learning across analytics and data science.</h2>
+      </div>
 
-  <div class="skills-grid">
-    <span>Google Data Analytics Professional Certificate</span>
-    <span>Python for Data Science, AI & Development - IBM</span>
-    <span>Data Analytics and Visualization Virtual Experience - Accenture</span>
-  </div>
-</section>
+      <div class="cert-grid">
+        <div class="cert-card">Google Data Analytics Professional Certificate</div>
+        <div class="cert-card">Python for Data Science, AI & Development — IBM</div>
+        <div class="cert-card">Data Analytics and Visualization Virtual Experience — Accenture</div>
+      </div>
+    </section>
 
-    <section id="contact" class="section">
-  <h2>Contact</h2>
-  <p>
-    I am open to data analyst, business analyst, BI analyst, and data science opportunities.
-  </p>
-  <p>Email: <a href="mailto:valvdemllo17@gmail.com">valvdemllo17@gmail.com</a></p>
-  <p>GitHub: <a href="https://github.com/vdmello17" target="_blank">github.com/vdmello17</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/valencia-dmello" target="_blank">linkedin.com/in/valencia-dmello</a></p>
-  <p>Resume: <a href="resume.pdf" target="_blank">Download Resume PDF</a></p>
-</section>
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect.</h2>
+      </div>
+
+      <p>
+        I am open to data analyst, business analyst, BI analyst, and data science opportunities.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:valvdemllo17@gmail.com" class="btn primary">Email Me</a>
+        <a href="resume.pdf" target="_blank" class="btn secondary-dark">View Resume</a>
+        <a href="https://github.com/vdmello17" target="_blank" class="btn secondary-dark">GitHub</a>
+        <a href="https://www.linkedin.com/in/valencia-dmello" target="_blank" class="btn secondary-dark">LinkedIn</a>
+      </div>
+    </section>
 
   </main>
 
   <footer>
-    <p>© 2026 Valencia Dmello. Built with GitHub Pages.</p>
+    <p>© 2026 Valencia Dmello · Built with GitHub Pages</p>
   </footer>
 
 </body>
