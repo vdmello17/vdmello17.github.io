@@ -391,7 +391,7 @@ a {
   gap: 22px;
 }
 
-.project-card.featured {
+.project-card {
   grid-column: span 2;
 }
 
@@ -537,7 +537,7 @@ footer {
     left: 10px;
   }
 
-  .project-card.featured {
+  .project-card {
     grid-column: span 1;
   }
 
