@@ -547,6 +547,9 @@ footer {
 }
 
 @media (max-width: 620px) {
+  .project-image-grid {
+  grid-template-columns: 1fr;
+}
   .hero {
     padding: 22px 5% 56px;
   }
@@ -621,4 +624,16 @@ footer {
   .timeline-content {
     padding: 22px;
   }
+}
+.project-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.project-image-grid .project-image {
+  margin: 0;
+  height: 100%;
+  object-fit: cover;
 }
