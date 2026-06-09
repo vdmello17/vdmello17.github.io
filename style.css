@@ -6,15 +6,19 @@
   --paper-warm: #111827;
   --card-bg: #0f172a;
   --card-bg-2: #111827;
+
   --accent: #60a5fa;
   --accent-strong: #3b82f6;
   --accent-light: #93c5fd;
+
   --muted: #cbd5e1;
   --muted-light: #94a3b8;
+
   --line: rgba(148, 163, 184, 0.16);
-  --serif: 'Instrument Serif', Georgia, serif;
-  --sans: 'DM Sans', Inter, Arial, sans-serif;
-  --mono: 'JetBrains Mono', monospace;
+
+  --serif: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --sans: "DM Sans", Inter, Arial, Helvetica, sans-serif;
+  --mono: "JetBrains Mono", "Courier New", monospace;
 }
 
 * {
@@ -175,9 +179,17 @@ nav.scrolled,
   transition: all 0.3s;
 }
 
-.nav-toggle span:nth-child(1) { top: 0; }
-.nav-toggle span:nth-child(2) { top: 9px; }
-.nav-toggle span:nth-child(3) { top: 18px; }
+.nav-toggle span:nth-child(1) {
+  top: 0;
+}
+
+.nav-toggle span:nth-child(2) {
+  top: 9px;
+}
+
+.nav-toggle span:nth-child(3) {
+  top: 18px;
+}
 
 /* ===== HERO ===== */
 
@@ -298,6 +310,8 @@ nav.scrolled,
   animation: fadeUp 0.8s 0.8s forwards;
 }
 
+/* ===== BUTTONS ===== */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -331,6 +345,8 @@ nav.scrolled,
   background: rgba(96, 165, 250, 0.14);
   transform: translateY(-2px);
 }
+
+/* ===== HERO IMAGE ===== */
 
 .hero-visual {
   position: relative;
@@ -947,7 +963,7 @@ section {
   stroke-width: 2;
 }
 
-/* ===== MINI CARDS / CERTS ===== */
+/* ===== MINI CARDS / CERTIFICATIONS ===== */
 
 .more-projects {
   display: grid;
@@ -995,7 +1011,7 @@ section {
   color: var(--accent-light);
 }
 
-/* ===== FOCUS / PUBLICATION STYLE CARD ===== */
+/* ===== FOCUS CARD ===== */
 
 .pub-card {
   background:
@@ -1152,7 +1168,8 @@ footer a {
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
 
@@ -1162,7 +1179,8 @@ footer a {
 }
 
 @keyframes scrollPulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.35;
   }
 
