@@ -65,14 +65,15 @@
   }
   </script>
 </head>
-
+<script src="main.js" defer></script>
+  
 <body>
 
 <header class="hero" id="home">
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <a href="#home" class="logo">V<span>.</span></a>
 
-    <div class="nav-links">
+    <div class="nav-links" id="navLinks">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
@@ -81,6 +82,11 @@
       <a href="#contact" class="nav-button">Get in Touch</a>
     </div>
   </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
 
   <section class="hero-grid">
     <div class="hero-text">
