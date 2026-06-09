@@ -1,4 +1,4 @@
-```css
+
 :root {
   --ink: #f8fafc;
   --paper: #020617;
@@ -1340,7 +1340,7 @@ footer a {
   .contact-card {
     padding: 1.2rem;
   }
-}
+
 /* ===== FIX OLD HTML CLASS COLORS ===== */
 
 .logo,
@@ -1414,4 +1414,4 @@ footer a {
 .float-card-value {
   color: #f8fafc !important;
 }
-```
+}
